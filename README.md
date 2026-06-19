@@ -31,15 +31,15 @@ A LinkedIn-inspired social networking interface built with React. The project re
 
 ### Home Feed
 
-![Home Feed](src/assets/home.png)
+![Home Feed](public/homepage.png)
 
 ### My Network
 
-![My Network](src/assets/peoplec.png)
+![My Network](public/network-page.png)
 
 ### Jobs
 
-![Jobs](src/assets/jobc.png)
+![Jobs](public/jobs-page.png)
 
 ---
 
