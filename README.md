@@ -1,71 +1,134 @@
-# Getting Started with Create React App
+# LinkedIn Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A LinkedIn-inspired social networking interface built with React. The project recreates key sections of LinkedIn including the Home Feed, My Network, Jobs, Navigation Bar, Messaging Panel, News Section, Profile Card, and Connection Suggestions. The application uses reusable React components and React Router for page navigation.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* LinkedIn-style responsive user interface
+* Home feed with posts and engagement actions
+* Profile section with analytics and shortcuts
+* My Network page with connection requests and suggestions
+* Jobs page with personalized job recommendations
+* LinkedIn News section
+* Messaging panel
+* React Router based navigation
+* Reusable component architecture
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
 
-### `npm test`
+* React
+* JavaScript
+* CSS
+* React Router DOM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home Feed
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Home Feed](src/assets/home.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### My Network
 
-### `npm run eject`
+![My Network](src/assets/peoplec.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Jobs
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Jobs](src/assets/jobc.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+```text
+linkedin/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.js
+│   ├── Navbar.js
+│   ├── Home.js
+│   ├── Network.js
+│   ├── Job.js
+│   ├── Left.js
+│   ├── Center.js
+│   ├── Right.js
+│   ├── Profile.js
+│   ├── Messages.js
+│   ├── HomeCards.js
+│   ├── NetworkCard.js
+│   ├── JobCards.js
+│   ├── RequestContent.js
+│   ├── Footer.js
+│   └── ...
+├── package.json
+└── README.md
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Pages
 
-### Code Splitting
+### Home
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* User profile card
+* Feed creation panel
+* News section
+* Feed posts with engagement actions
 
-### Analyzing the Bundle Size
+### My Network
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Connection requests
+* Network management shortcuts
+* Suggested connections
+* LinkedIn games and puzzles
 
-### Making a Progressive Web App
+### Jobs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Job recommendations
+* Career insights
+* Job tracker section
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Application Workflow
 
-### Deployment
+1. User lands on the Home page.
+2. Navigation bar allows switching between Home, My Network, and Jobs.
+3. Home page displays posts, profile information, and news.
+4. My Network page displays invitations and suggested connections.
+5. Jobs page displays recommended job opportunities.
+6. Messaging panel remains accessible across pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# linkedin-ui-clone
+```bash
+git clone <repository-url>
+
+cd linkedin
+
+npm install
+
+npm start
+```
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## Author
+
+### Atmika Nayak
+
+GitHub: https://github.com/AtmikaNayak
