@@ -65,15 +65,15 @@ This project is purely frontend and can be connected to APIs for authentication,
 
 ### Home Feed
 
-![Home Feed](src/assets/home.png)
+![Home Feed](public/homepage.png)
 
 ### Network
 
-![Network](src/assets/peoplec.png)
+![Network](public/network-page.png)
 
 ### Jobs
 
-![Jobs](src/assets/jobc.png)
+![Jobs](public/jobs-page.png)
 
 ## Additional Resources
 
